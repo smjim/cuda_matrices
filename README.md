@@ -23,3 +23,4 @@ implementations of common matrix operations in cuda c++
 ### Papers I've investigated:
 
 1. Sadal Anisul Haque, Marc Moreno Maza. _Determinant Computation on the GPU using the Condensation Method_. https://sci-hub.st/10.1088/1742-6596/341/1/012031
+2. Jack Dongarra et al. High-performance Cholesky factorization for GPU-only execution. https://www.icl.utk.edu/files/publications/2017/icl-utk-987-2017.pdf
