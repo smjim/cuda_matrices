@@ -18,7 +18,10 @@ implementations of common matrix operations in cuda c++
 
 # Interesting notes:
 
-* The so-called "Hilbert Matrix" is infamous for its non-singularity for any size n, and is an excellent candidate for testing the numerical stability of any matrix algorithm
+* The Hilbert Matrix is non-singular for any size n, and as such it is a good candidate for testing the numerical stability of matrix algorithms
+
+### Interesting links:
+1. https://algowiki-project.org/en/Cholesky_decomposition
 
 ### Papers I've investigated:
 

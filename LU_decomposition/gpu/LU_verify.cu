@@ -92,7 +92,6 @@ int main() {
 
 	// Launch kernel
 	matrixMul<<<blocks, threads>>>(d_a, d_b, d_c, n);
-	cudaDeviceSynchronize();
 
 	cudaMemcpy(A.data(), d_c, bytes, cudaMemcpyDeviceToHost);
 
