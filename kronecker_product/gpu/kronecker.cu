@@ -84,6 +84,7 @@ int main() {
     dim3 blocks(BLOCKS, BLOCKS);
 
     kronecker<<<blocks, threads>>>(d_a, d_b, d_c, n, p);
+	// cudaMemcpy functions as cudaSync();
     cudaMemcpy(c.data(), d_c, c_bytes, cudaMemcpyDeviceToHost);
 
     // #################
